@@ -6,6 +6,8 @@
   "scripts": {
     "build": "parcel build index.html --no-source-maps  --no-cache --public-url / --out-dir dist/release",
     "dev": "parcel index.html --out-dir dist/dev --no-cache --no-minify",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "test": "mocha test"
   },
   "repository": {
@@ -39,6 +41,7 @@
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.16",
+    "vuepress": "^0.12.0",
     "vuex": "^3.0.1"
   },
   "dependencies": {
